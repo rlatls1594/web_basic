@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="style.css"></link>
+    <title>CSS TEST</title>
+    <!-- 내부 vs 외부 : 문서 내부에 정의 된 CSS가 우선순위가 높다.
+    <style>
+      .class3 { color: blue; background-color: gray; }
+    </style>
+    -->
+  </head>
+  <body>
+
+    <h2>기본 선택자</h2>
+    <h1 class="class1">CSS 클래스 선택자 테스트_1</h1>
+    <h2 class="class1">CSS 클래스 선택자 테스트_2</h2>
+    <p class="class2">CSS 클래스 선택자 테스트_3</p>
+    <hr>
+
+    <h2>가상 선택자</h2>
+    <p><a href="#" target="_blank">test</a>: 마우스 이벤트에 따른 링크의 변화</p>
+    <p><a href="#" target="_blank">test</a>: 마우스 이벤트에 따른 링크의 변화</p>
+    <hr>
+    <p>link : 웹 문서에서 사용자가 방문하지 않았던 곳을 표시한다</p>
+    <p>visited : 웹 문서에서 사용자가 방문한 곳을 표시한다.</p>
+    <p>hover : 웹 문서에서 사용자가 링크에 마우스 포인터를 올리는 순간을 나타낸다.</p>
+    <p>active : 웹 문서에서 사용자가 링크를 클릭하는 순간을 나타낸다.</p>
+    <hr>
+
+    <h2>내부 vs 외부</h2>
+    <p class="class3">CSS 내부 vs 외부 테스트_1</p>
+    <p class="class3">CSS 내부 vs 외부 테스트_2</p>
+    <p class="class3">CSS 내부 vs 외부 테스트_3</p>
+  </body>
+</html>
